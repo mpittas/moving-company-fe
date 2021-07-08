@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 
 const IndexPage = () => (
   <Layout>
-    <h1>Moving website 2</h1>
+    <h1>Moving website 3</h1>
   </Layout>
 )
 
