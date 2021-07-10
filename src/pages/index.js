@@ -8,7 +8,17 @@ import '../styles/global.scss'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Moving website 3</h1>
+    <div className="hero">
+      <div className="container">
+        <div className="hero-left">
+          left
+        </div>
+        
+        <div className="hero-left">
+          right
+        </div>
+      </div>
+    </div>
   </Layout>
 )
 
