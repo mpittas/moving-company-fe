@@ -18,6 +18,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .mc-header {
     display: flex;
     align-items: center;
@@ -90,5 +95,13 @@ h1, h2, h3, h4, h5, h6 {
         &:hover {
             background-color: lighten($black, 7%);
         }
+    }
+}
+
+.hero__inner {
+    display: flex;
+    align-items: center;
+    > div {
+        width: 50%;
     }
 }
