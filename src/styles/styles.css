@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  background: #F6F0EE;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.mc-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.mc-header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mc-header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mc-header__logo img {
+  margin-bottom: 0;
+}
+
+.mc-header__nav {
+  margin-left: 2rem;
+}
+
+.mc-header__nav nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.mc-header__nav nav ul li {
+  margin: 0;
+}
+
+.mc-header__nav nav ul li + li {
+  margin-left: 1.25rem;
+}
+
+.mc-header__nav nav ul li a {
+  text-decoration: none;
+  color: #131519;
+}
+
+.mc-header__nav nav ul li.active a {
+  color: #E4754B;
+}
+
+.mc-header__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mc-header__actions .mc-btn + .mc-btn {
+  margin-left: 0.75rem;
+}
+
+.hero__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__inner > div {
+  width: 50%;
+}
+
+.mc-btn {
+  padding: 0.75rem 1.25rem;
+  font-size: 14px;
+  color: white;
+  background-color: #E4754B;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+}
+
+.mc-btn:hover {
+  background-color: #df5d2c;
+}
+
+.mc-btn-dark {
+  background-color: #131519;
+}
+
+.mc-btn-dark:hover {
+  background-color: #22262d;
+}
+/*# sourceMappingURL=styles.css.map */
