@@ -17,24 +17,24 @@ const IndexPage = () => (
     <div className="hero">
       <Container>
         <Row>
-          <Col md={12}>
-          <div className="hero__inner">
-          <div className="hero__left">
-            <img src={heroIcon} alt="Moving truck in motion"/>
-            <h2>Move your home effortlessly with our help</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div>
-              <a href="#" className="mc-btn">Book your Hour</a>
+          <Col md={6}>
+            <div className="hero__left">
+              <img src={heroIcon} alt="Moving truck in motion"/>
+              <h2>Move your home effortlessly with our help</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div>
+                <a href="#" className="mc-btn">Book your Hour</a>
+              </div>
             </div>
-          </div>
-          
-          <div className="hero__right">
-            <img src={circleElements} alt="Circle BG elements"/>
-            <div className="hero__right-inner">
-              <img src={heroImage} alt="Group photo"/>
+          </Col>
+
+          <Col md={6}>
+            <div className="hero__right">
+              <img src={circleElements} alt="Circle BG elements"/>
+              <div className="hero__right-inner">
+                <img src={heroImage} alt="Group photo"/>
+              </div>
             </div>
-          </div>
-        </div>
           </Col>
         </Row>
       </Container>
