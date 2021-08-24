@@ -4,10 +4,6 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "@fontsource/poppins";
-import "./layout.css"
-
-// Import main bootstrap CSS
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

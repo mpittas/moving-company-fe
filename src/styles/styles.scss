@@ -1,5 +1,16 @@
-@import './global';
+// Global colors
+@import './global/colors';
 
+// Bootstrap variables override
+@import './global/_variables';
+
+// Import main bootstrap CSS
+@import "~bootstrap/scss/bootstrap";
+
+// Global styling
+@import './global/global';
+
+// Components
 @import './components/header';
 @import './components/hero';
 @import './components/buttons';

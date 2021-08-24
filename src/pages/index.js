@@ -4,7 +4,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import '../styles/styles.scss'
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 import heroIcon from '../images/moving-truck.svg';
 import heroImage from '../images/hero-image.jpg';
@@ -15,7 +15,7 @@ import circleElements from '../images/circle-elements.png';
 const IndexPage = () => (
   <Layout>
     <div className="hero">
-      <Container>
+      <Container size="xxl">
         <Row>
           <Col md={6}>
             <div className="hero__left">
@@ -23,7 +23,7 @@ const IndexPage = () => (
               <h2>Move your home effortlessly with our help</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <div>
-                <a href="#" className="mc-btn">Book your Hour</a>
+                <Button variant="primary">Book your Hour</Button>
               </div>
             </div>
           </Col>
